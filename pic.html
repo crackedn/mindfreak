@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Can Change Images</h1>
+
+<img id="myImage" onclick="changeImage()" src="http://media2.intoday.in/indiatoday/images/stories/hrithik-story_647_061715020726.jpg" width="300" height="180">
+
+<p>Click the light bulb to turn on/off the light.</p>
+
+<script>
+function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src.match("hrithik")) {
+        image.src = "Penguins.jpg";
+    } else {
+        image.src = "http://media2.intoday.in/indiatoday/images/stories/hrithik-story_647_061715020726.jpg";
+    }
+}
+</script>
+
+</body>
+</html>

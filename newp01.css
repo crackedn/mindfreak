@@ -1,0 +1,157 @@
+*{margin:0px;
+ padding:0px;
+ }
+ 
+ 
+#mainbody {
+	background-color: #CCFF99;
+	height: 1000px;
+	width: 100%;
+}
+#mainbody #header {
+	background-color: #FF3300;
+	height: 130px;
+	width: 100%;
+}
+#mainbody #header .hl {
+	height: 130px;
+	width: 22%;
+	float: left;
+}
+#mainbody #centre {
+	height: 150px;
+	width: 100%;
+	background-color: #33CC99;
+}
+#mainbody #bottom {
+	height: 150px;
+	width: 100%;
+}
+#mainbody #down {
+	background-color: #FFFFCC;
+	height: 400px;
+	width: 100%;
+}
+#mainbody #text1 {
+	background-color: #FF9900;
+	height: 70px;
+	width: 100%;
+}
+#mainbody #footer {
+	background-color: #00CCCC;
+	height: 100px;
+	width: 100%;
+}
+#mainbody #bottom .b1 {
+	background-color: #99CC66;
+	float: left;
+	height: 200px;
+	width: 33%;
+}
+#mainbody #bottom .b2 {
+	background-color: #9999FF;
+	float: left;
+	height: 200px;
+	width: 34%;
+}
+#mainbody #bottom .b3 {
+	background-color: #0099FF;
+	float: right;
+	height: 200px;
+	width: 33%;
+}
+
+
+
+
+#mainbody #header .h2 {
+	background-color: #33FFFF;
+	float: left;
+	height: 90px;
+	width: 78%;
+}
+#mainbody #header .h3 {
+	background-color: #FF9999;
+	float: left;
+	height: 40px;
+	width: 78%;
+}
+#drop{
+margin-left:10%;
+}
+
+
+#h{
+position:relative;
+display:inline-block;
+}
+#h-content{
+display:none;
+position:absolute;
+background-color:#CCCC99;
+max-width:40px;
+padding:10px 10px;
+
+}
+#h:hover #h-content{
+
+display:block;
+}
+#signup{
+position:relative;
+display:inline-block;
+}
+#sign-content{
+display:none;
+position:absolute;
+background-color:#CCCC99;
+max-width:40px;
+padding:10px 10px;
+
+}
+#signup:hover #sign-content{
+
+display:block;
+}
+#login{
+position:relative;
+display:inline-block;
+}
+#login-content{
+display:none;
+position:absolute;
+background-color:#CCCC99;
+max-width:40px;
+padding:10px 10px;
+
+}
+#login:hover #login-content{
+
+display:block;
+}
+#help{
+position:relative;
+display:inline-block;
+}
+#help-content{
+display:none;
+position:absolute;
+background-color:#CCCC99;
+max-width:40px;
+padding:10px 10px;
+
+}
+#help:hover #help-content{
+
+display:block;
+}
+
+#mainbody #down #image {
+	
+	height: 60px;
+	width: 22%;
+    display:inline;
+	margin-left:15%;
+	position:relative;
+	margin-top:10%;
+}
